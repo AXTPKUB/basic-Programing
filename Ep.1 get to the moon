@@ -1,0 +1,8 @@
+const fristName: string = 'Atipat'
+    let y: number = 10
+                y = 20
+let isWantToGoHome: boolean  = false
+
+console.log(fristName)
+console.log(y)
+console.log(isWantToGoHome)
