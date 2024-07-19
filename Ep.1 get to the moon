@@ -1,6 +1,7 @@
 const fristName: string = 'Atipat'
     let y: number = 10
                 y = 20
+                
 let isWantToGoHome: boolean  = false
 console.log(fristName)
 console.log(y)
@@ -8,6 +9,7 @@ console.log(isWantToGoHome)
 // 2
 const a: number = 9
 const b: number = 9
+
 console.log(a === b)
 console.log(a > b)
 console.log(a <= b)
