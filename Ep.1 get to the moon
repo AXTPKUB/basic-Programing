@@ -6,7 +6,7 @@ let isWantToGoHome: boolean  = false
 console.log(fristName)
 console.log(y)
 console.log(isWantToGoHome)
-
+// 2
 const a: number = 9
 const b: number = 9
 
