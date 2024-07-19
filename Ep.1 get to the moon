@@ -6,3 +6,10 @@ let isWantToGoHome: boolean  = false
 console.log(fristName)
 console.log(y)
 console.log(isWantToGoHome)
+
+const a: number = 9
+const b: number = 9
+
+console.log(a === b)
+console.log(a > b)
+console.log(a <= b)
