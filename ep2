@@ -1,36 +1,36 @@
-function muTyply(z: number, x:number, y:number, w:number) {
-    return z * x * y * w
-}
-console.log(muTyply(56,66,2,0))
+function muTyply(z: number, x:number, y:number, w:number) { //สร้างฟั่งชั่นการคูณเลขโดยกำหนดตัวแปรและใส่ประเภท และสร้างสูตร
+    return z * x * y * w //ใส่ " * " และคูณเพิ่มตัวแปรเข้าไป
+} //จบการทำสูตร
+console.log(muTyply(56,66,2,0)) // ทำการประมวลผลลัพธ์โดยใส่ตัวเลขตามแปรเข้าไปโดยตรง
 
-function pLus(a: number, b: number){
-    return a + b
-}
-console.log(pLus(899,345))
+function pLus(a: number, b: number){ //สร้างฟั่งชั่นการคูณเลขโดยกำหนดตัวแปรและใส่ประเภท และสร้างสูตร
+    return a + b //ใส่ " + " และเพิ่มตัวแปรเข้าไป
+}//จบการทำสูตร
+console.log(pLus(899,345)) // ทำการประมวลผลลัพธ์โดยใส่ตัวเลขตามแปรเข้าไปโดยตรง
 
-function rEMove(q: number, e: number){
-    return q - e
+function rEMove(q: number, e: number){ //สร้างฟั่งชั่นการคูณเลขโดยกำหนดตัวแปรและใส่ประเภท และสร้างสูตร
+    return q - e //ใส่" - "และเพิ่มตัวแปรเข้าไป
 }
-console.log(rEMove(23,3))
+console.log(rEMove(23,3))// ทำการประมวลผลลัพธ์โดยใส่ตัวเลขตามแปรเข้าไปโดยตรง
 
-function haN(s:number,d:number){
-    return s / d
+function haN(s:number,d:number){//สร้างฟั่งชั่นการคูณเลขโดยกำหนดตัวแปรและใส่ประเภท และสร้างสูตร
+    return s / d //ใส่ " / " คือการหารและเพิ่มตัวแปรเข้าไป
 }
-console.log(haN(5,20))
+console.log(haN(5,20))// ทำการประมวลผลลัพธ์โดยใส่ตัวเลขตามแปรเข้าไปโดยตรง
 
-function graDe(Hw:number, md:number, fn:number){
-    let score: number = Hw + md + fn
-    if (score < 50){
-        return "Grade F"
-    } else if (score < 60){
+function graDe(Hw:number, md:number, fn:number){//สร้างฟั่งชั่นการคูณเลขโดยกำหนดตัวแปรและใส่ประเภท และสร้างสูตร
+    let score: number = Hw + md + fn //ใส่ตัวแปร score โดยหาจาก Hw,md,fn(เป็นตัวแปร) เพิ่มตัวเลขเข้าไป
+    if (score < 50){ // ใส่ if แล้วสร้างวงเล็บโดยตั้งว่าถ้าคะแนนหรือผลัพธ์ต่ำกว่า 50 เป็น เกรด F
+        return "Grade F" // หากคำตอบได้น้อยกว่า 50 จริงให้ประกาศว่า เกรด F
+    } else if (score < 60){ // หากคะแนน มากกว่า 50 < 60 if แล้วสร้างวงเล็บโดยตั้งว่าถ้าคะแนนหรือผลัพธ์ต่ำกว่า 60 เป็น เกรด D
         return "Grade D"
-    } else if (score < 70){
+    } else if (score < 70){ // หากคะแนน มากกว่า 60 < 70 if แล้วสร้างวงเล็บโดยตั้งว่าถ้าคะแนนหรือผลัพธ์ต่ำกว่า 70 เป็น เกรด C
         return "Grade C"
-    } else if (score < 80){
+    } else if (score < 80){ // หากคะแนน มากกว่า 70 < 80  if แล้วสร้างวงเล็บโดยตั้งว่าถ้าคะแนนหรือผลัพธ์ต่ำกว่า 80 เป็น เกรด B
         return "Grade B"
-    } else {
+    } else { // หากคะแนน มากกว่า 80 ขึ้นไปให้ใส่เกรด A
         return "Grade A"
     }
 }
 
-console.log(graDe(40,30,30))
+console.log(graDe(40,30,30)) // ทำการประมวลผลลัพธ์โดยใส่ตัวแปรเข้าไปโดยตรง
