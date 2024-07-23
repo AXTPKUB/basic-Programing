@@ -1,0 +1,36 @@
+function muTyply(z: number, x:number, y:number, w:number) {
+    return z * x * y * w
+}
+console.log(muTyply(56,66,2,0))
+
+function pLus(a: number, b: number){
+    return a + b
+}
+console.log(pLus(899,345))
+
+function rEMove(q: number, e: number){
+    return q - e
+}
+console.log(rEMove(23,3))
+
+function haN(s:number,d:number){
+    return s / d
+}
+console.log(haN(5,20))
+
+function graDe(Hw:number, md:number, fn:number){
+    let score: number = Hw + md + fn
+    if (score < 50){
+        return "Grade F"
+    } else if (score < 60){
+        return "Grade D"
+    } else if (score < 70){
+        return "Grade C"
+    } else if (score < 80){
+        return "Grade B"
+    } else {
+        return "Grade A"
+    }
+}
+
+console.log(graDe(40,30,30))
